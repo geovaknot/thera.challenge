@@ -1,0 +1,42 @@
+﻿@model Thera.Talent.Management.Web.Models.Talent
+
+@{
+    ViewBag.Title = "Detalhes Talento";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Talento</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PathFile)
+        </dt>
+
+        <dd>
+            @Html.ActionLink("Download", "DownloadFile", new { @path = Model.PathFile }, new {@target = "_blank"})
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

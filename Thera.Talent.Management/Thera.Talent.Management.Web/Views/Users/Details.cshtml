@@ -1,0 +1,42 @@
+﻿@model Thera.Talent.Management.Web.Models.User
+
+@{
+    ViewBag.Title = "Detalhes Usuário";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Usuário</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Profile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Profile)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Voltar", "Index")
+</p>

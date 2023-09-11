@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Sobre";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>
+    <h5>@ViewBag.Message</h5>
+
+    <h1>Funcionalidades Principais:</h1>
+
+    <p></p>
+
+    <p><strong>Autentica&ccedil;&atilde;o Multi-Tipo:</strong> </p>
+
+    <p>Implementar um sistema de autentica&ccedil;&atilde;o que suporte dois tipos: via cookie para o aplicativo web MVC e via JWT para a API.</p>
+
+    <p></p>
+
+    <p><strong> Gerenciamento de Pessoas (CRUD):</strong></p>
+
+    <p>Desenvolver um sistema completo de CRUD (Create, Read, Update, Delete) para gerenciar informa&ccedil;&otilde;es de talentos.</p>
+
+    <p>Armazenar informa&ccedil;&otilde;es como nome, e-mail e curr&iacute;culo (upload de documento).</p>
+
+    <p></p>
+
+    <p><strong> Hierarquia de Acesso:</strong></p>
+
+    <p>Tr&ecirc;s tipos de usu&aacute;rios: Leitor, Secret&aacute;rias e Administradores.</p>
+
+    <p>Leitor: Podem ler informa&ccedil;&otilde;es sobre talentos.</p>
+
+    <p>Secret&aacute;rias: Al&eacute;m de ler, podem criar e editar novos talentos (n&atilde;o podem excluir). Tamb&eacute;m podem criar e editar usu&aacute;rios do tipo Leitor e Secret&aacute;rias (n&atilde;o pode excluir).</p>
+
+    <p>Administradores: Podem fazer tudo, ler, criar, deletar. Inclusive criar novos administradores e excluir Talentos, Leitores e Secret&aacute;rias. S&oacute; n&atilde;o pode editar ou deletar outros administradores.</p>
+
+    <p></p>
+
+    <p><strong> Views MVC:</strong></p>
+
+    <p>Desenvolver views usando o Razor View Engine para permitir a intera&ccedil;&atilde;o com os dados das pessoas.</p>
+
+    <p>As views devem ser geradas automaticamente e devem refletir as opera&ccedil;&otilde;es CRUD.</p>
+
+    <p></p>
+
+    <p><strong> API (JWT):</strong></p>
+
+    <p>Implementar uma API que suporte autentica&ccedil;&atilde;o via JWT.</p>
+
+    <p>A API deve fornecer endpoints para criar, ler, atualizar e excluir informa&ccedil;&otilde;es de talentos.</p>
+
+</main>

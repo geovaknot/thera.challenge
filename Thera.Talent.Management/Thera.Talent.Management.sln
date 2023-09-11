@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thera.Talent.Management.Api", "Thera.Talent.Management\Thera.Talent.Management.Api.csproj", "{B2B2779E-1DF6-4856-AC4A-99A78A42A6DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thera.Talent.Management.Web", "Thera.Talent.Management.Web\Thera.Talent.Management.Web.csproj", "{EBFFC0E7-6BCA-4AD7-BBB6-63A4C84C2D92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2B2779E-1DF6-4856-AC4A-99A78A42A6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B2779E-1DF6-4856-AC4A-99A78A42A6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B2779E-1DF6-4856-AC4A-99A78A42A6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B2779E-1DF6-4856-AC4A-99A78A42A6DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFFC0E7-6BCA-4AD7-BBB6-63A4C84C2D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFFC0E7-6BCA-4AD7-BBB6-63A4C84C2D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFFC0E7-6BCA-4AD7-BBB6-63A4C84C2D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFFC0E7-6BCA-4AD7-BBB6-63A4C84C2D92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4676D5B6-7FCA-4AD7-A088-D2C1CFE0A288}
+	EndGlobalSection
+EndGlobal
